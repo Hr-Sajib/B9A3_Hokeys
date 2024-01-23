@@ -43,13 +43,34 @@
 
 </style>
 
+
+<!-- <div class="dropdown dropdown-end">
+    <div tabindex="0" role="button" class="btn m-1"><svg class="lg:hidden" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none">
+                <path d="M3.75 6.75H20.25M3.75 12H12.5M3.75 17.25H20.25" stroke="#131318" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg></div>
+    <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+      <li><a>Item 1</a></li>
+      <li><a>Item 2</a></li>
+    </ul>
+  </div> -->
+
+
 </head>
 <body>
-    <nav class="container mx-auto px-3 lg:px-24 mt-8 lg:mt-10 flex items-center  justify-between ">
+    <nav class="container mx-auto px-1 lg:px-5 mt-8 lg:mt-10 flex items-center  justify-between ">
         <div class="flex items-center gap-4">
-            <svg class="lg:hidden" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none">
-                <path d="M3.75 6.75H20.25M3.75 12H12.5M3.75 17.25H20.25" stroke="#131318" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
+            <div class="dropdown dropdown-bottom bg-none">
+                <div tabindex="0" role="button" class="btn m-1"><svg class="lg:hidden" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none">
+                            <path d="M3.75 6.75H20.25M3.75 12H12.5M3.75 17.25H20.25" stroke="#131318" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg></div>
+                <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-red-50 rounded-box w-52">
+                  <li><a class="text-red-500">Home</a></li>
+                  <li><a class="hover:text-red-500 ">About</a></li>
+                  <li><a class="hover:text-red-500 ">Pages</a></li>
+                  <li><a class="hover:text-red-500 ">Blog</a></li>
+                  <li><a class="hover:text-red-500 ">Contact</a></li>
+                </ul>
+              </div>
             <p class="font-manrope text-4xl font-extrabold">Hokey<span class="text-red-500">’</span>s</p>
         </div>
         <ul class="lg:flex gap-20 hidden">
@@ -88,15 +109,12 @@
             </div> 
             <div id="slide2" class="carousel-item relative w-full">
                 <img src="Images/2.png" class="w-full" />
-                <div class="absolute flex gap-3 transform -translate-y-1/2  lg:left-24 lg:top-[64vh] top-[34vh] ">
+                <div class="absolute flex gap-3 transform -translate-y-1/2  lg:left-24 lg:top-[64vh] top-[34vh] left-32 ">
                   <a href="#slide1" class="btn btn-circle  border-red-500 border-3 bg-black text-white">❮</a> 
                   <a href="#slide1" class="btn btn-circle  border-red-500 border-3 bg-black text-white">❯</a>
                 </div>
             </div> 
             
-       
-       
-       
         </div>
         <div class="lg:w-5/12 w-[95vw] mx-auto mt-5 lg:h-44 bg-[#131318] p-7 rounded-xl  relative lg:bottom-56 lg:left-[29vw] lg:ml-80 ">
             <p class="text-white font-manrope font-extrabold text-2xl">Meet all the heroes from the field</p>
@@ -106,6 +124,7 @@
 
     
     <hr class="container mx-auto lg:my-0 mt-10" style="border: none;border-top: 2px dashed rgb(212, 210, 210);">
+    
     <section class="container mx-auto px-3 lg:px-24 mt-8 lg:my-16">
         <p class="text-center font-manrope text-3xl font-extrabold ">Professional Hockeys Club</p>
         <p class="text-center font-manrope text-gray-400 w-3/5 mx-auto mt-5">Professional hockey clubs epitomize elite athleticism, teamwork, and dedication, competing at the highest levels and captivating fans with thrilling performances and sporting excellence.</p>
@@ -302,7 +321,7 @@
                   </svg>
                 <p class="inline-block">200</p>
                 <p class=" font-manrope text-xl font-extrabold my-2">World Cup Flags Football</p>
-                <p class="font-manrope text-gray-400">World Cup flags inspire football jerseys with vibrant, global design flair.</p>
+                <p class="font-manrope text-gray-400">Football's global celebration, uniting nations through spirited competition.</p>
                 <p class="font-extrabold text-red-500 font-manrope mt-3 inline-block">Price - $22.00</p>
                 <svg class=" ml-5 inline-block" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <g clip-path="url(#clip0_7_298)">
@@ -361,7 +380,7 @@
                   </svg>
                 <p class="inline-block">200</p>
                 <p class=" font-manrope text-xl font-extrabold my-2">Theme Caps</p>
-                <p class="font-manrope text-gray-400">World Cup flags inspire football jerseys with vibrant, global design flair.</p>
+                <p class="font-manrope text-gray-400">Theme Caps: Stylish headwear reflecting unique themes for individual expression.</p>
                 <p class="font-extrabold text-red-500 font-manrope mt-3 inline-block">Price - $22.00</p>
                 <svg class=" ml-5 inline-block" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <g clip-path="url(#clip0_7_298)">
@@ -419,7 +438,7 @@
                   </svg>
                 <p class="inline-block">200</p>
                 <p class=" font-manrope text-xl font-extrabold my-2">Practice Jersey</p>
-                <p class="font-manrope text-gray-400">World Cup flags inspire football jerseys with vibrant, global design flair.</p>
+                <p class="font-manrope text-gray-400">Practice World Cup flags inspire football jerseys with vibrant, global design flair.</p>
                 <p class="font-extrabold text-red-500 font-manrope mt-3 inline-block">Price - $22.00</p>
                 <svg class=" ml-5 inline-block" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <g clip-path="url(#clip0_7_298)">
@@ -478,7 +497,7 @@
                   </svg>
                 <p class="inline-block">200</p>
                 <p class=" font-manrope text-xl font-extrabold my-2">Player Helmet</p>
-                <p class="font-manrope text-gray-400">World Cup flags inspire football jerseys with vibrant, global design flair.</p>
+                <p class="font-manrope text-gray-400">Player Helmet: Essential protective gear ensuring safety and confidence during play.</p>
                 <p class="font-extrabold text-red-500 font-manrope mt-3 inline-block">Price - $22.00</p>
                 <svg class=" ml-5 inline-block" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <g clip-path="url(#clip0_7_298)">
@@ -698,7 +717,6 @@
                 <button class=" btn bg-red-500 text-white lg:w-[91%] w-[87vw] hover:text-red-500 ">Send Message</button>
             </div>
         </div>
-        
     </section>
 
     <hr class="container mx-auto lg:mt-16 mt-5" style="border: none;border-top: 2px dashed rgb(212, 210, 210);">
@@ -766,7 +784,6 @@
         <p class="inline-block text-[#86efac]">by HR_Sajib</p>
         </div>
     </div>
-
 </footer> 
 </body>
 </html>
