@@ -45,7 +45,7 @@
 
 </head>
 <body>
-    <nav class="container mx-auto px-3 lg:px-24 mt-8 lg:mt-16 flex items-center  justify-between ">
+    <nav class="container mx-auto px-3 lg:px-24 mt-8 lg:mt-10 flex items-center  justify-between ">
         <div class="flex items-center gap-4">
             <svg class="lg:hidden" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none">
                 <path d="M3.75 6.75H20.25M3.75 12H12.5M3.75 17.25H20.25" stroke="#131318" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -76,19 +76,19 @@
     </nav>
 
 <main>
-    <section class="container mx-auto px-3 lg:px-24 mt-8 lg:mt-16">
+    <section class="container mx-auto px-0 lg:px-24 mt-8 lg:mt-10 lg:ml-0">
        
-        <div class="carousel w-full lg:h-[80vh] h-[40vh]">
+        <div class="carousel w-[full] lg:w-[87vw] lg:h-[80vh] h-[40vh] lg:ml-0">
             <div id="slide1" class="carousel-item relative w-full ">
               <img  src="Images/1.png" class="w-full" />
-              <div class="absolute flex gap-3 transform -translate-y-1/2 lg:left-24 top-[34vh] left-32">
+              <div class="absolute flex gap-3 transform -translate-y-1/2 lg:left-24 lg:top-[64vh] left-32 top-[34vh]">
                 <a href="#slide2" class="btn btn-circle border-red-500 border-3 bg-black text-white">❮</a> 
                 <a href="#slide2" class="btn btn-circle  border-red-500 border-3 bg-black text-white">❯</a>
               </div>
             </div> 
             <div id="slide2" class="carousel-item relative w-full">
                 <img src="Images/2.png" class="w-full" />
-                <div class="absolute flex gap-3 transform -translate-y-1/2  lg:left-24 top-[34vh] ">
+                <div class="absolute flex gap-3 transform -translate-y-1/2  lg:left-24 lg:top-[64vh] top-[34vh] ">
                   <a href="#slide1" class="btn btn-circle  border-red-500 border-3 bg-black text-white">❮</a> 
                   <a href="#slide1" class="btn btn-circle  border-red-500 border-3 bg-black text-white">❯</a>
                 </div>
@@ -98,7 +98,7 @@
        
        
         </div>
-        <div class="lg:w-5/12 lg:h-44 bg-[#131318] p-7 rounded-xl  relative lg:bottom-56 lg:left-72 lg:ml-80 ">
+        <div class="lg:w-5/12 w-[95vw] mx-auto mt-5 lg:h-44 bg-[#131318] p-7 rounded-xl  relative lg:bottom-56 lg:left-[29vw] lg:ml-80 ">
             <p class="text-white font-manrope font-extrabold text-2xl">Meet all the heroes from the field</p>
             <p class="text-gray-400">Experience the thrill of hockey as you meet the heroes on the field, showcasing skill, teamwork, and unmatched passion.</p>
         </div>
@@ -720,8 +720,8 @@
 
 
 
- <footer class=" w-full bg-black  lg:mt-44 mt-10 flex flex-col lg:flex-row lg:justify-around justify-center">
-    <div class="w-80 text-white space-y-2 mt-24 space-y-4 lg:text-left text-center lg:mx-0 mx-auto">
+ <footer class=" w-full bg-black  lg:mt-44 mt-10 flex flex-col lg:flex-row lg:justify-around gap-1">
+    <div class="w-80 text-white  mt-24  space-y-4 lg:text-left text-center lg:mx-0 mx-auto">
         <p class="font-manrope text-xl font-bold">Get In Touch</p>
         <p class="text-gray-300 mb-3">Lets connect with us! For inquiries, collaboration, or assistance, our team is ready to assist you. Let's build something great together!</p>
         <div class="flex gap-2 items-center lg:justify-normal justify-center">
@@ -754,7 +754,7 @@
             <p>Contact Us</p>
         </div>
     </div>
-    <div  class="w-80 text-white space-y-2 mt-24 space-y-4 lg:text-left text-center lg:mx-0 mx-auto">
+    <div  class="w-80 text-white space-y-2 lg:mt-24 mt-10 mb-5 space-y-4 lg:text-left text-center lg:mx-0 mx-auto">
         <p class="mb-3 font-manrope font-bold text-red-300">Services</p>
         <p>Academy</p>
         <p>Group Lesson</p>
